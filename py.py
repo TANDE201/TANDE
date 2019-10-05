@@ -1,5 +1,6 @@
 import discord
 import openpyxl
+import os
 
 client = discord.Client()
 
@@ -56,5 +57,6 @@ async def on_ready():
                     await message.channel.send("경고를 1회 받았습니다.")
                     break
                 i += 1
-
-client.run('NjI5NjQ5NTAxNzQ0OTIyNjQ3.XZjFaA.w4tzviaznvDi44cNSQCwuAcZ_mo')
+                
+access_token = os.environ["BOT_TOKEN"}
+client.run('access_token')
