@@ -1,2 +1,2 @@
 discord.py==1.2.3
-openpyxl.py==2.6.4
+openpyxl.py==1.4.1
